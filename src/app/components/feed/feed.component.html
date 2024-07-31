@@ -1,17 +1,11 @@
-<p>feed works!</p>
-
-
-<c-container class="w-60">
-  <ng-container *ngFor="let post of feed">
-    <div >
-
-    </div>
-    <c-card class="mt-4" >
-      <c-card-body>
-        <p cCardText>
-          {{post}}
-        </p>
-      </c-card-body>
-    </c-card>
-  </ng-container>
+<c-container class="w-60 pt">
+    <ng-container *ngFor="let post of feed">
+      <c-card class="mt-2">
+        <c-card-body>
+          <p cCardText>
+            {{post}}
+          </p>
+        </c-card-body>
+      </c-card>
+    </ng-container>
 </c-container>

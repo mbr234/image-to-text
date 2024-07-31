@@ -10,7 +10,7 @@ import { Itt } from '../models/itt';
 })
 export class ImageToTextService {
   private url = 'http://localhost:5000/itt';
-  public text = new BehaviorSubject<String>("Make America great again");
+  public text = new BehaviorSubject<String>("Hello. How can I help you?");
 
   constructor(private http: HttpClient) { }
 
