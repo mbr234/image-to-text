@@ -1,0 +1,25 @@
+.advanced-input {
+  overflow: hidden;
+  background-color: #F8F8F8;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  color: black;
+}
+
+.roundbutton{
+  display: block;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+  margin: 1rem 1rem;
+}
+
+.file-input {
+  display: none;
+}

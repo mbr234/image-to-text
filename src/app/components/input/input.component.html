@@ -1,0 +1,21 @@
+
+<div class="row advanced-input">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <input type="file" class="file-input" (change)="onFileSelected($event)" #fileUpload>
+      <div class="file-upload">
+        <button color="primary" class="roundbutton" (click)="fileUpload.click()">
+            <svg [cIcon]="icons.cilImage" size="3xl" title="Image Icon"></svg>
+        </button>
+      </div>
+    </li>
+
+    <li class="nav-item">
+      <div>
+        <button color="primary" class="roundbutton" (click)="xxx()">
+          <svg [cIcon]="icons.cilMic" size="3xl" title="Microphone Icon"></svg>
+        </button>
+      </div>
+    </li>
+  </ul>
+</div>
