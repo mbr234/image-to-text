@@ -3,7 +3,8 @@
     <input type="file" class="file-input" (change)="onFileSelected($event)" #fileUpload>
     <div class="file-upload">
       <button color="primary" class="roundbutton" (click)="fileUpload.click()">
-          <svg [cIcon]="icons.cilImage" size="3xl" title="Image Icon"></svg>
+          <!-- <svg [cIcon]="icons.cilImage" size="3xl" title="Image Icon"></svg> -->
+          <img class="active" src="assets/image.gif"/>
       </button>
     </div>
   </div>
