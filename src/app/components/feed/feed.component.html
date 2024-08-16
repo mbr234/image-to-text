@@ -1,4 +1,5 @@
-<c-container class="w-60 pt">
+<c-container fluid  class="feed d-flex justify-content-center" #scrollMe>
+  <div class="w-50">
     <ng-container *ngFor="let post of feed">
       <c-card class="mt-2">
         <c-card-body>
@@ -8,4 +9,5 @@
         </c-card-body>
       </c-card>
     </ng-container>
+  </div>
 </c-container>

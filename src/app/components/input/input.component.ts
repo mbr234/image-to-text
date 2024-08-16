@@ -3,12 +3,14 @@ import { cilImage, cilMic } from '@coreui/icons';
 import { IconDirective } from '@coreui/icons-angular';
 import { HttpClient } from '@angular/common/http';
 import { ImageToTextService } from '../../services/image-to-text.service';
+import { GridModule } from '@coreui/angular';
 
 @Component({
   selector: 'app-input',
   standalone: true,
   imports: [
     IconDirective,
+    GridModule
   ],
   templateUrl: './input.component.html',
   styleUrl: './input.component.scss'

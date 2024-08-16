@@ -8,10 +8,11 @@ p {
   white-space:pre;
 }
 
-.w-60 {
-  max-width: 60%;
+.w-50 {
+  width: 50%;
 }
 
-.pt {
-  padding-top: 3.5rem;
+.feed {
+  height: 80vh;
+  overflow-y: scroll;
 }
